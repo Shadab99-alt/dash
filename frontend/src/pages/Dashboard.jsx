@@ -279,7 +279,7 @@ export default function Dashboard() {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
 
-  const base = "https://dash-backend-312j.onrender.com";
+  const base = "https://dash-backend1.onrender.com";
 
   const fetchAll = useCallback(() => {
     setLoading(true);
